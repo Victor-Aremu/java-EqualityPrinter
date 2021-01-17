@@ -1,11 +1,4 @@
 public class EqualityPrinter {
-    public static void main(String[] args) {
-        printEqual(1,1,1);
-        printEqual(1,1,2);
-        printEqual(-1,-1,-1);
-        printEqual(1, 2, 3);
-
-    }
     public static void printEqual(int number1, int number2, int number3){
         if (number1 < 0 || number2 < 0 || number3 < 0){
             System.out.println("Invalid Value");
@@ -22,3 +15,4 @@ public class EqualityPrinter {
         }
     }
 }
+//Victor.Aremu
